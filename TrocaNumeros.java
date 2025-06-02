@@ -10,19 +10,22 @@ public class TrocaNumeros {
 		
 		double n1;
 		double n2;
+		// variaveis para guardar os numeros
 		
-		System.out.println("Olá, bom dia!");
-		System.out.println("Me dia o seu priemrio numero");
+		System.out.println("olá, bom dia!");
+		System.out.println("me dia o seu priemrio numero");
 		n1 = sc.nextDouble();
-		System.out.println("Me diga o segundo numero");
+		System.out.println("me diga o segundo numero");
 		n2 = sc.nextDouble();
-		
-		System.out.println("o valor do n1 é:" + n1);
-		System.out.println("o valor do n2 é:" + n2);
 		
 		double aux = n1;
 		n1 = n2;
 		n2 = aux;
+		// troca os valores usando uma variavel auxiliar
+		
+		System.out.println("o valor do n1 é:" + n1);
+		System.out.println("o valor do n2 é:" + n2);
+		// mostra os valores trocados
 	}
 
 }
